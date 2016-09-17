@@ -13,9 +13,10 @@
 		EE21B7121D8D109500B34857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE21B7111D8D109500B34857 /* Assets.xcassets */; };
 		EE21B7151D8D109500B34857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE21B7131D8D109500B34857 /* LaunchScreen.storyboard */; };
 		EE2D760A1D8D12CD00914228 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE2D76081D8D12CD00914228 /* DataModel.xcdatamodeld */; };
-		EE2D76171D8D66D500914228 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D76151D8D66D500914228 /* Person+CoreDataProperties.swift */; };
-		EE2D76181D8D66D500914228 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D76161D8D66D500914228 /* Person.swift */; };
 		EE2D761A1D8D672F00914228 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D76191D8D672F00914228 /* DataController.swift */; };
+		EE2D761C1D8D689000914228 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D761B1D8D689000914228 /* SwiftyJSON.swift */; };
+		EE2D761F1D8D711000914228 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D761D1D8D711000914228 /* Person+CoreDataProperties.swift */; };
+		EE2D76201D8D711000914228 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2D761E1D8D711000914228 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +28,10 @@
 		EE21B7141D8D109500B34857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE21B7161D8D109500B34857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2D76091D8D12CD00914228 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		EE2D76151D8D66D500914228 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		EE2D76161D8D66D500914228 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		EE2D76191D8D672F00914228 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EE2D761B1D8D689000914228 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		EE2D761D1D8D711000914228 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE2D761E1D8D711000914228 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +48,8 @@
 		EE21B6FE1D8D109500B34857 = {
 			isa = PBXGroup;
 			children = (
-				EE2D76151D8D66D500914228 /* Person+CoreDataProperties.swift */,
-				EE2D76161D8D66D500914228 /* Person.swift */,
+				EE2D761D1D8D711000914228 /* Person+CoreDataProperties.swift */,
+				EE2D761E1D8D711000914228 /* Person.swift */,
 				EE21B7091D8D109500B34857 /* iOSCoreDataExistingProject */,
 				EE21B7081D8D109500B34857 /* Products */,
 			);
@@ -64,6 +66,7 @@
 		EE21B7091D8D109500B34857 /* iOSCoreDataExistingProject */ = {
 			isa = PBXGroup;
 			children = (
+				EE2D761B1D8D689000914228 /* SwiftyJSON.swift */,
 				EE21B70A1D8D109500B34857 /* AppDelegate.swift */,
 				EE21B70C1D8D109500B34857 /* ViewController.swift */,
 				EE21B70E1D8D109500B34857 /* Main.storyboard */,
@@ -148,11 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE2D76181D8D66D500914228 /* Person.swift in Sources */,
 				EE2D761A1D8D672F00914228 /* DataController.swift in Sources */,
-				EE2D76171D8D66D500914228 /* Person+CoreDataProperties.swift in Sources */,
 				EE2D760A1D8D12CD00914228 /* DataModel.xcdatamodeld in Sources */,
+				EE2D761F1D8D711000914228 /* Person+CoreDataProperties.swift in Sources */,
 				EE21B70D1D8D109500B34857 /* ViewController.swift in Sources */,
+				EE2D76201D8D711000914228 /* Person.swift in Sources */,
+				EE2D761C1D8D689000914228 /* SwiftyJSON.swift in Sources */,
 				EE21B70B1D8D109500B34857 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

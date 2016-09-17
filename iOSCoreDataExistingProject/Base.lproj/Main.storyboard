@@ -8,7 +8,8 @@
         <!--Root View Controller-->
         <scene sceneID="ULS-e3-QeV">
             <objects>
-                <tableViewController id="iPu-PH-Lhv" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5iW-P6-JLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="iPu-PH-Lhv" customClass="ViewController" customModule="iOSCoreDataExistingProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="dB6-yv-P7n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,13 +32,13 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="rC9-lp-vUa"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5iW-P6-JLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="995" y="523"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Soc-0e-bug">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqb-40-ViS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="Jhv-oR-Taz" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3gs-BV-BlK">
@@ -48,7 +49,6 @@
                         <segue destination="iPu-PH-Lhv" kind="relationship" relationship="rootViewController" id="vb4-O2-lUU"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqb-40-ViS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="274" y="523"/>
         </scene>
